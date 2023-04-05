@@ -1,0 +1,58 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 306px;
+    height: 306px;
+    margin: 0 auto;
+    border: 3px solid #333;
+    background-color: #fff;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #eee;
+  }
+  
+  .x {
+    color: #f00;
+  }
+  
+  .o {
+    color: #00f;
+  }
+  
+  .winner {
+    background-color: #ff0;
+  }
+
+  h1{
+    text-align: center;
+  }
+  #restart {
+    background-color: #6c757d;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #restart:hover {
+    background-color: #495057;
+  }
+  
+  
